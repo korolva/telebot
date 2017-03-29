@@ -14,8 +14,8 @@ login = sys.argv[1]
 
 def adduser(x):
    host = '172.17.2.104'
-   user = 'v.korol'
-   sudopass = 'loop7Meg\n'
+   user = ''
+   sudopass = ''
    port = 22
    password = ''.join(choice(string.ascii_uppercase + string.ascii_lowercase + string.digits) for x in range(10))
    client = paramiko.SSHClient()
