@@ -6,7 +6,7 @@ import os
 import telebot
 import sys
 
-token = '363953390:AAHqQeLssqkC_aQ2bmUjl_xnfeltpstw-4o'
+token = ''
 bot = telebot.TeleBot(token)
 chat_id = -217393923
 downlist = []
