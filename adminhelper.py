@@ -11,7 +11,7 @@ import telebot
 
 
 #login = sys.argv[1]
-token = '363953390:AAHqQeLssqkC_aQ2bmUjl_xnfeltpstw-4o'
+token = ''
 bot = telebot.TeleBot(token)
 chat_id = -217393923
 my_id = 173423412
@@ -49,7 +49,7 @@ def wifiuser(message):
 def adduser(x):
    host = '172.17.2.104'
    user = 'v.korol'
-   sudopass = 'loop7Meg\n'
+   sudopass = '\n'
    port = 22
    password = ''.join(choice(string.ascii_uppercase + string.ascii_lowercase + string.digits) for x in range(10))
    client = paramiko.SSHClient()
